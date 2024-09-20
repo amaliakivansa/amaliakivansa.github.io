@@ -10,6 +10,7 @@ const Bio = (props: Props) => {
           <img
             src="/assets/images/profile-image.png"
             alt="Amalia Kivansa Anggreansi"
+            className="w-4/5 mx-auto"
           />
         </div>
         <div className="basis-1/2">

@@ -9,8 +9,8 @@ const TheNavbar = () => {
         <nav className=''>
           <ul className='flex items-center text-dark-gray font-medium'>
             {links.map((link) => (
-              <a href={`#${link.toLowerCase()}`}>
-                <li key={link} className='mx-2 hidden lg:block'>
+              <a href={`#${link.toLowerCase()}`} key={link}>
+                <li className='mx-2 hidden lg:block'>
                   {link}
                 </li>
               </a>
